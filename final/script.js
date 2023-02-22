@@ -118,7 +118,7 @@ map.on("mouseover", "niah-ireland", (event) => {
 popup = new mapboxgl.Popup({ offset: [0, -15] , className:"my-popup2"})
 .setLngLat(feature.geometry.coordinates)
 .setHTML(
-`<img src=${feature.properties.IMAGE_LINK} width ="110" height="150" >`
+`<img src=${feature.properties.IMAGE_LINK} width ="200" height="250">`
 )
 .addTo(map);
   
